@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: yellow; */
+    /* z-index: 1000;     */   /* Por si el menu no se sobrepone */
+    
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* background-color: blue; */
+}
+
+
+.menu-list a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 1.2em;
+}
+
+.menu-list a:hover {
+    color: #000000;
+}
+
+
+
+
+.ipads-appstore{
+    background-color: #f5f5f7;
+    height: 93vh;
+    width: 100%;
+}
