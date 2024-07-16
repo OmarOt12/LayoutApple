@@ -117,3 +117,140 @@ body {
 }
 
 
+/*  */
+/* Ipads */
+
+.ipads {
+    background-image: url('/assets/ipad-background.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ipads__content {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ipads__content-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.ipads__content-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.ipads__content-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ipads__content-button:hover {
+    background-color: #005bb5;
+}
+
+
+/* responsive for ipads */
+
+@media (min-width: 750px) {
+    .ipads {
+        height: 100vh; /* Ajusta la altura para pantallas más grandes */
+    }
+
+    .ipads__content-title {
+        font-size: 3em;
+    }
+
+    .ipads__content-description {
+        font-size: 1.5em;
+    }
+
+    .ipads__content-button {
+        font-size: 1.2em;
+        padding: 15px 30px;
+    }
+}
+
+
+
+/* Iphone 15 pro */
+
+.iphone15pro {
+    background-image: url('/assets/iphone15-background.jpg'); /* Verifica que esta ruta sea correcta */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.iphone15pro__content {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.iphone15pro__content-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.iphone15pro__content-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.iphone15pro__content-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.iphone15pro__content-button:hover {
+    background-color: #005bb5;
+}
+
+/* responsive for iphone 15 pro */
+
+@media (min-width: 750px) {
+    .iphone15pro {
+        height: 100vh; /* Ajusta la altura para pantallas más grandes */
+    }
+
+    .iphone15pro__content-title {
+        font-size: 3em;
+    }
+
+    .iphone15pro__content-description {
+        font-size: 1.5em;
+    }
+
+    .iphone15pro__content-button {
+        font-size: 1.2em;
+        padding: 15px 30px;
+    }
+}
