@@ -254,3 +254,67 @@ body {
         padding: 15px 30px;
     }
 }
+
+
+
+/* Students and iPhone 15 */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.students, .iphone15 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.students {
+    background-image: url('/assets/students-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.iphone15 {
+    background-image: url('/assets/iphone15n-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+}
+
+.students__content, .iphone15__content {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.students__content-title, .iphone15__content-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.students__content-description, .iphone15__content-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.students__content-button, .iphone15__content-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.students__content-button:hover, .iphone15__content-button:hover {
+    background-color: #005bb5;
+}
