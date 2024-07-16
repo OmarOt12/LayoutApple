@@ -13,7 +13,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.99);
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -87,6 +87,7 @@ body {
 
     .header__menu-toggle:checked + .header__menu-label + .header__menu .header__menu-list {
         display: flex;
+        height: 100vh;
     }
 }
 
@@ -172,6 +173,8 @@ body {
 @media (min-width: 750px) {
     .ipads {
         height: 100vh; 
+        background-image: url(/assets/ipad-background-bg.png);
+        background-size: 100vw 100vh;
     }
 
     .ipads__content-title {
@@ -201,7 +204,7 @@ body {
     height: 70vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
@@ -262,20 +265,21 @@ body {
 }
 
 
-
+/* --------------------------------STUDENTS AND IPHONE 15-------------------------------------------------- */
 /* Students and iPhone 15 */
 
 .container {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 120vh;
 }
 
 .students, .iphone15 {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
@@ -351,6 +355,7 @@ body {
 
 
 
+/* -----------------------------------MACBOOK AND APPLE WATCH--------------------------------------------- */
 /* MacBook and Apple Watch */
 .macbook, .applewatch {
     flex: 1;
@@ -374,6 +379,7 @@ body {
     background-size: cover;
     background-position: center;
     color: #ffffff;
+    align-items: start;
 }
 
 .macbook__content, .applewatch__content {
@@ -390,7 +396,7 @@ body {
 
 .applewatch__content-subtitle {
     font-size: 1.5em;
-    margin-bottom: 10px;
+    
     color: red;
 }
 
@@ -418,7 +424,7 @@ body {
 @media (min-width: 750px) {
     .container {
         flex-direction: row;
-        height: 100vh; /* Ajusta la altura para pantallas más grandes */
+        height: 100vh; 
     }
 
     .macbook__content-title, .applewatch__content-title {
