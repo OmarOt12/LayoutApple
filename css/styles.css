@@ -318,3 +318,26 @@ body {
 .students__content-button:hover, .iphone15__content-button:hover {
     background-color: #005bb5;
 }
+
+
+/* responsive for students and iPhone 15 */
+
+@media (min-width: 750px) {
+    .container {
+        flex-direction: row;
+        height: 100vh; /* Ajusta la altura para pantallas más grandes */
+    }
+
+    .students__content-title, .iphone15__content-title {
+        font-size: 3em;
+    }
+
+    .students__content-description, .iphone15__content-description {
+        font-size: 1.5em;
+    }
+
+    .students__content-button, .iphone15__content-button {
+        font-size: 1.2em;
+        padding: 15px 30px;
+    }
+}
