@@ -114,7 +114,7 @@ body {
 
 
 
-/*  */
+/* ---------------------------------IPADS----------------------------------------------- */
 /* Ipads */
 
 .ipads {
@@ -189,22 +189,23 @@ body {
 }
 
 
-
+/* --------------------------------IPHONE 15 PRO------------------------------------------ */
 /* Iphone 15 pro */
 
 .iphone15pro {
-    background-image: url('/assets/iphone15-background.jpg');
+    background-image: url('/assets/iphone15pro-background.png');
     background-size: cover;
     background-position: center;
     color: #ffffff;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    border: yellow solid;
 }
 
 .iphone15pro__content {
@@ -242,7 +243,8 @@ body {
 
 @media (min-width: 750px) {
     .iphone15pro {
-        height: 100vh; /* Ajusta la altura para pantallas más grandes */
+        height: 100vh; 
+        background-image: url('/assets/iphone15pro-background.jpg');
     }
 
     .iphone15pro__content-title {
