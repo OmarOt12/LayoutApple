@@ -341,3 +341,66 @@ body {
         padding: 15px 30px;
     }
 }
+
+
+
+/* MacBook and Apple Watch */
+.macbook, .applewatch {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.macbook {
+    background-image: url('/assets/mackbook-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+}
+
+.applewatch {
+    background-image: url('/assets/applewatch-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.macbook__content, .applewatch__content {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.macbook__content-title, .applewatch__content-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.applewatch__content-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.macbook__content-description, .applewatch__content-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.macbook__content-button, .applewatch__content-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.macbook__content-button:hover, .applewatch__content-button:hover {
+    background-color: #005bb5;
+}
